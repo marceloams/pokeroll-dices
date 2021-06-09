@@ -1,0 +1,12 @@
+o problema é um aplicativo que gere dois numeros aleatorios simulando dados para "um jogo de sorte"
+
+1 - duas variaveis (string na tela), um botao e uma entrada de texto -> essas variaveis sao obtidas pelo método 
+Random.nextInt() que ja existe e mostar esse numeros na tela, 
+2 - o botao tambem adiciona o texto (nome da pessoa),
+3 - o resultado da soma dos numeros a um mapa.
+4 - filtro para mostar o resultado da pessoa mais sortuda
+
+1 - faz a tela, acrescenta as duas variaveis, testa o random automaticamente (onInit da vida),
+2 - adc o botao e delega o método para ser acionado pelo botao;
+3 - entao adiciona a entrada de texto e ao final da jogada adiciona isso a um mapa com a soma dos numeros gerados;
+4 - 
