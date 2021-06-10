@@ -12,4 +12,4 @@
 
 1. Adição dos itens na tela: 1 Button e 2 TextView;
 2. Criação de uma função Roll que irá retornar um número aletório para os TextViews;
-3. Atribui a chamada da função Roll para alterar os TextView.
+3. Atribui para o botão a chamada da função Roll para alterar os TextView.
