@@ -7,12 +7,12 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttonRoll"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/rollButton"
+        android:layout_width="209dp"
+        android:layout_height="52dp"
         android:layout_marginBottom="216dp"
-        android:text="Roll"
         android:backgroundTint="@color/green_red_color_state"
+        android:text="@string/roll_dices_button_label"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -28,7 +28,7 @@
         android:layout_marginTop="212dp"
         android:layout_marginEnd="61dp"
         android:layout_marginBottom="105dp"
-        app:layout_constraintBottom_toTopOf="@+id/buttonRoll"
+        app:layout_constraintBottom_toTopOf="@+id/rollButton"
         app:layout_constraintEnd_toStartOf="@+id/dice2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -45,5 +45,28 @@
         app:layout_constraintTop_toTopOf="@+id/dice1"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/dice_2" />
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:clickable="true"
+        android:backgroundTint="@color/green_red_color_state"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_share" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
