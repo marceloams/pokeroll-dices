@@ -7,4 +7,6 @@
     <string name="share_message">You are lucky!</string>
     <string name="share_button_error_message">Whatsapp not found!</string>
     <string name="name_text_edit_validator_message">Please enter your name!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
