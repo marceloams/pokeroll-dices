@@ -9,4 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green">#438C42</color>
     <color name="red">#FFC60E24</color>
+    <color name="yellow_pokemon">#FFCB05</color>
+    <color name="blue_pokemon">#2A75BB</color>
+    <color name="green_pokemon">#4C8710</color>
+    <color name="magenta">#341A17</color>
 </resources>
