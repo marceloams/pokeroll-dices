@@ -1,4 +1,6 @@
-# Roll Dices App
+<img src="https://github.com/marceloams/roll-dices/blob/master/assets/PokerollDices.png?raw=true">
+
+# Pokeroll Dices App
 
 ## ⚠️ Problema
 
