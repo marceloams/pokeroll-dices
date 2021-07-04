@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RollDices</string>
+    <string name="app_name">PokerollDices</string>
     <string name="welcome_message">Catch your luck %s!</string>
     <string name="play_button_label">Play</string>
     <string name="roll_dices_button_label">Roll</string>
@@ -7,7 +7,6 @@
     <string name="share_message">You are lucky!</string>
     <string name="share_button_error_message">Whatsapp not found!</string>
     <string name="name_text_edit_validator_message">Please enter your name!</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="roll_dices_title">Roll Dices</string>
+    <string name="roll_dices_title">Pokeroll Dices</string>
 </resources>
